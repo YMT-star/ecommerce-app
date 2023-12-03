@@ -347,6 +347,9 @@
     flex-direction: column;
 }
 .home .banners .container .right_box .top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
     width: 100%;
 }
 .home .banners .container .right_box .top img{
@@ -367,7 +370,7 @@
 }
 .home .banners .container .right_box .bottom img{
     width: 100%;
-    height: 60%;
+    height: 45vh;
     object-fit: cover;
     background: yellow;
 }
